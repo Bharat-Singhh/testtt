@@ -242,10 +242,7 @@ It also integrates easily with Linux systems using NFS mounts, making it ideal f
 | Persistent Across Container Restart | ✅ Yes | ✅ Yes | ✅ Yes |
 | Persistent Across EC2 Replacement | ❌ No | ✅ Yes | ✅ Yes |
 | Shared Across Multiple Instances | ❌ No | ✅ Yes | ✅ Yes |
-| Suitable for File Storage | ✅ Yes | ❌ No | ✅ Yes |
-| Suitable for Structured Databases | ❌ No | ✅ Yes | ❌ No |
 | Easy Docker Integration | ✅ Yes | ⚠️ Moderate | ✅ Yes |
-| Auto Scaling Storage | ❌ No | ✅ Yes | ✅ Yes |
 | Operational Complexity | Low | High | Medium |
 | Cost for Small File Store | Low | Higher | Cost-Effective |
 | Best Use Case | Local container persistence | Relational databases | Shared persistent file storage |
